@@ -5,6 +5,25 @@ body{
   width: 100%;
   height: 400px;
 }
-#stops input[type='text']{
+#form input[type='text']{
   margin-bottom: 3px;
+}
+.info_window{
+  min-height: 150px;
+}
+.info_window div{
+  margin-bottom: 5px;
+}
+
+.icon{
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+.delete{
+  cursor: pointer;
+  background-image: url('delete.png');
 }

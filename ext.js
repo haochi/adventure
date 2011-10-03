@@ -24,3 +24,5 @@ google.maps.LatLng.prototype.midpoint = function(that){
   
   return new google.maps.LatLng(lat3.toDeg(), lon3.toDeg());
 }
+
+function tofu(a,c){return a.replace(/{ *([^} ]+) *}/g,function(b,a){b=c;a.replace(/[^.]+/g,function(a){b=b[a]});return b})}
