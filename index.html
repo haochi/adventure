@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Adventure - iHaochi</title>
     <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css">
     <link rel="stylesheet" href="http://harvesthq.github.com/chosen/chosen/chosen.css">
     <link rel="stylesheet" href="style.css">
@@ -10,6 +11,9 @@
   <body>
     <div class="container">
       <div class="content">
+        <div class="page-header">
+          <h1>Adventure <small>by <a href="http://twitter.com/haochi">@haochi</a></small></h1>
+        </div>
         <div class="row">
           <div class="span10">
             <div id="map"></div>
@@ -35,7 +39,14 @@
           </div>
         </div>
       </div>
+      <footer>
+        <p>
+          &copy; Haochi Chen, based on <a href="http://www.reddit.com/r/SomebodyMakeThis/comments/kwr45/smt_a_website_where_i_can_map_out_a_road_trip_and/">an idea by redditor mccartym</a>.
+          Used icons from the <a href="http://www.famfamfam.com/lab/icons/silk/" rel="nofollow">famfamfam's Silk icon set</a>
+        </p>
+      </footer>
     </div>
+
     <script type="text/tofu" id="itinerary_template">
       <div class="itinerary_item">
         <h5>{ name }</h5>

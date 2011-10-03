@@ -136,4 +136,6 @@ $("input[type=text]").each(function(){
     $(this).watermark(title);
   }
 });
-
+$("a").each(function(){
+  $(this).attr("target", "_blank");
+});
